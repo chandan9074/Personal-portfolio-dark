@@ -1,10 +1,10 @@
 import Layouts from "@/layouts";
-import Image from "next/image";
+import HomeBanner from "../sections/HomeBanner";
 
 export default function Home() {
     return (
         <Layouts.Primary>
-            <div>chandan</div>
+            <HomeBanner />
         </Layouts.Primary>
     );
 }

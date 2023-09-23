@@ -5,7 +5,7 @@ import Buttons from "../Buttons";
 
 const Primary = () => {
     return (
-        <div className="py-6 w-[1700px] mx-auto flex items-center justify-between">
+        <div className="py-6 md:px-16 sm:px-10 px-5 flex items-center justify-between">
             <div className="flex items-center gap-1">
                 <Image
                     src={Images.chandan}
@@ -17,7 +17,7 @@ const Primary = () => {
                     CHANDAN
                 </h6>
             </div>
-            <div className="flex items-center gap-x-11 justify-start">
+            <div className="lg:flex items-center gap-x-11 justify-start hidden">
                 {navLinks.map((item) => (
                     <button
                         key={item._id}
