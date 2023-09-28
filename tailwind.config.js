@@ -14,10 +14,21 @@ module.exports = {
                 "bg-from": "#1E2024",
                 "bg-to": "#23272B",
                 "primary-red": "#FF014F",
+                "primary-red-700": "#F9004D",
+                "primary-gray-300": "#C4CFDE",
             },
             boxShadow: {
                 "light-gray":
                     "-10px -10px 19px 0px #262A2E, 10px 10px 19px 0px #1C1E22",
+            },
+            keyframes: {
+                fadeIn: {
+                    "0%": { opacity: 0 },
+                    "100%": { opacity: 1 },
+                },
+            },
+            animation: {
+                fadeIn: "fadeIn 0.3s ease-in-out",
             },
         },
     },

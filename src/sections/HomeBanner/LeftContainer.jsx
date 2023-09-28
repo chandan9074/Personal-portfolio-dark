@@ -11,7 +11,7 @@ const LeftContainer = () => {
             <h1 className="text-3xl sm:text-4xl lg:text-[40px] xl:text-[48px] text-white font-bold mt-5 lg:text-left text-center">
                 Hi, I’m <span className="text-primary-red">Chandan Kumar</span>
             </h1>
-            <h1 className="text-3xl sm:text-4xl lg:text-[40px] xl:text-[48px] text-white font-bold mt-1 lg:text-left text-center">
+            <h1 className="text-3xl sm:text-4xl lg:text-[40px] xl:text-[48px] text-white font-bold mt-6 lg:text-left text-center">
                 a Developer
             </h1>
             <p className="mt-5 text-gray-400 text-base w-auto md:w-[600px] mx-auto lg:mx-0 lg:w-[500px] xl:w-[613px] leading-7 lg:text-left text-center">
