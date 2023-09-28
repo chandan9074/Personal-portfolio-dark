@@ -9,7 +9,7 @@ const WhatIDo = () => {
         <div className="py-10 lg:py-16">
             <Subtitle subTitle={"Features"} />
             <Title title={"What I Do"} margin="mt-1 sm:mt-2 xl:mt-3" />
-            <div className="mt-12 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-12">
+            <div className="mt-16 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-12">
                 {whatIDoData.map((item) => (
                     <Cards.FeatureCard key={item._id} data={item} />
                 ))}

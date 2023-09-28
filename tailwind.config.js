@@ -16,10 +16,12 @@ module.exports = {
                 "primary-red": "#FF014F",
                 "primary-red-700": "#F9004D",
                 "primary-gray-300": "#C4CFDE",
+                "primary-gray-500": "#7C838E",
+                "primary-gray-400": "#878E99",
             },
             boxShadow: {
                 "light-gray":
-                    "-10px -10px 19px 0px #262A2E, 10px 10px 19px 0px #1C1E22",
+                    "-5px -5px 19px 0px #262A2E, 5px 5px 19px 0px #1C1E22",
             },
             keyframes: {
                 fadeIn: {

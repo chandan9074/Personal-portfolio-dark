@@ -1,5 +1,5 @@
 import FeatureCard from "./FeatureCard";
-
-const Cards = { FeatureCard };
+import ExperienceCard from "./ExperienceCard";
+const Cards = { FeatureCard, ExperienceCard };
 
 export default Cards;
